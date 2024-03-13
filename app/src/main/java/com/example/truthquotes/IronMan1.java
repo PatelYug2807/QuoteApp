@@ -8,19 +8,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.truthquotes.R;
-
-public class NamorQuote1 extends AppCompatActivity {
-
+public class IronMan1 extends AppCompatActivity {
     TextView quote;
     Button share;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_namor_quote1);
-        share=findViewById(R.id.share);
-        quote=findViewById(R.id.share1);
+        setContentView(R.layout.activity_iron_man1);
+        share=findViewById(R.id.ironmanshare);
+        quote=findViewById(R.id.ironmanshare1);
         share.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,6 +28,7 @@ public class NamorQuote1 extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
 
     }
 }
