@@ -3,9 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/black"
+    android:background="@color/cardview_dark_background"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
     tools:context=".MainActivity">
     <TextView
         android:layout_width="match_parent"
@@ -20,22 +21,6 @@
         android:textSize="55dp"
         android:fontFamily="sans-serif-condensed-medium"/>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/cardview_dark_background"
-                android:orientation="vertical"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp">
 
                 <Button
                     android:id="@+id/marvel"
@@ -61,60 +46,8 @@
                     android:textSize="56sp"
                     tools:layout_editor_absoluteX="62dp"
                     tools:layout_editor_absoluteY="525dp" />
-                <Button
-                    android:id="@+id/marvel"
-                    android:layout_width="match_parent"
-                    android:layout_height="110dp"
-                    android:layout_marginTop="40dp"
-                    android:backgroundTint="@color/orange"
-                    android:fontFamily="@font/avengers4"
-                    android:text="Marvel"
-                    android:textSize="56sp"
-                    tools:layout_editor_absoluteX="62dp"
-                    tools:layout_editor_absoluteY="525dp" />
-
-                <Button
-                    android:id="@+id/dc"
-                    android:layout_width="match_parent"
-                    android:layout_height="110dp"
-                    android:layout_marginTop="40dp"
-                    android:backgroundTint="@color/orange"
-                    android:fontFamily="@font/dc1"
-                    android:paddingBottom="10dp"
-                    android:text="D.C"
-                    android:textSize="56sp"
-                    tools:layout_editor_absoluteX="62dp"
-                    tools:layout_editor_absoluteY="525dp" />
-                <Button
-                    android:id="@+id/marvel"
-                    android:layout_width="match_parent"
-                    android:layout_height="110dp"
-                    android:layout_marginTop="40dp"
-                    android:backgroundTint="@color/orange"
-                    android:fontFamily="@font/avengers4"
-                    android:text="Marvel"
-                    android:textSize="56sp"
-                    tools:layout_editor_absoluteX="62dp"
-                    tools:layout_editor_absoluteY="525dp" />
-
-                <Button
-                    android:id="@+id/dc"
-                    android:layout_width="match_parent"
-                    android:layout_height="110dp"
-                    android:layout_marginTop="40dp"
-                    android:backgroundTint="@color/orange"
-                    android:fontFamily="@font/dc1"
-                    android:paddingBottom="10dp"
-                    android:text="D.C"
-                    android:textSize="56sp"
-                    tools:layout_editor_absoluteX="62dp"
-                    tools:layout_editor_absoluteY="525dp" />
-            </LinearLayout>
 
 
-
-        </LinearLayout>
-        </ScrollView>
 
 
 

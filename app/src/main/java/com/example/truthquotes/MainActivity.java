@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         dc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(MainActivity.this,BatManQuote1.class);
+                Intent i=new Intent(MainActivity.this,DcEntry.class);
                 startActivity(i);
             }
         });

@@ -13,6 +13,25 @@
         android:theme="@style/Theme.TruthQuotes"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2" />
+        <activity
+            android:name=".IronMan2"
+            android:exported="false" />
+        <activity
+            android:name=".AquaManQuote1"
+            android:exported="false" />
+        <activity
+            android:name=".FlashQuote1"
+            android:exported="false" />
+        <activity
+            android:name=".WonderWoman1"
+            android:exported="false" />
+        <activity
+            android:name=".SuperMan1"
+            android:exported="false" />
+        <activity
             android:name=".Hulk1"
             android:exported="false" />
         <activity
